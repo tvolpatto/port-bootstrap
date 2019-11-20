@@ -20,6 +20,7 @@ html {
 body {
     background-image: url("../images/shattered.png"); 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    min-height: 100%;
 }
 
 .nav-link-personalized {
@@ -60,12 +61,19 @@ body {
     color: #777777;
 }
 
+.card-title-bg {
+    background-color: #4aaaa5;
+}
+
+.card-max-size {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
     width: 100%; 
 }
 
@@ -76,3 +84,10 @@ body {
     padding: 10px;
     text-align: center;
 }
+
+.card-img-overlay-bt {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} 
