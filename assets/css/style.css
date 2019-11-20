@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: bisque; 
+    background-image: url("../images/shattered.png"); 
 }
 
 .nav-link-personalized {
