@@ -46,6 +46,13 @@ body {
 
 .container-title {
     color: #4aaaa5;
+    margin-top: 10px;
+}
+
+.img-profile {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
 }
 
 .footer {
