@@ -15,45 +15,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand navbar-personalized">
-        <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-light p-0 navbar-personalized">
+        <div class="container px-0">
             <div>
                 <h1 class="header-title">Thyago Volpatto</h1>
             </div>
-            <div class="nav navbar-nav">
-                <a class="nav-item nav-link nav-link-personalized active" href="index.html">About </a>
-                <a class="nav-item nav-link nav-link-personalized vr" href="portfolio.html">Porfolio</a>
-                <a class="nav-item nav-link nav-link-personalized" href="#">Contact<span
-                        class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMenu"
+                aria-controls="navBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-justify" id="navBarMenu">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link pb-0 pt-0" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link pb-0 pt-0 vr" href="portfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pb-0 pt-0" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
     <section class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="container-title">Contact</h1>
-                    <hr>
-                </div>
+        <div class="row">
+            <div class="col">
+                <h1 class="container-title">Contact</h1>
+                <hr>
             </div>
-            <div class="row">
-                <div class="col">
-                    <form>
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="emailMessage" class="form-label">Message</label>
-                            <textarea class="form-control" id="emailMessage" rows="4"></textarea>
-                        </div>
-                    </form>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailMessage" class="form-label">Message</label>
+                        <textarea class="form-control" id="emailMessage" rows="4"></textarea>
+                    </div>
+                </form>
             </div>
+        </div>
     </section>
 
     <footer class="footer fixed-bottom">
