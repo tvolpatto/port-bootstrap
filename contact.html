@@ -15,24 +15,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light p-0 navbar-personalized">
+    <!--Header-->
+    <nav class="navbar navbar-expand-sm navbar-light p-0 mb-3 navbar-custom bg-white">
         <div class="container px-0">
             <div>
-                <h1 class="header-title">Thyago Volpatto</h1>
+                <h1 class="header-title text-white">Thyago Volpatto</h1>
             </div>
+             <!--Button for the collapsed menu-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMenu"
                 aria-controls="navBarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Menu Items-->
             <div class="collapse navbar-collapse text-justify" id="navBarMenu">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link pb-0 pt-0" href="index.html">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link pb-0 pt-0 nav-link-color" href="index.html">About</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link pb-0 pt-0 vr" href="portfolio.html">Porfolio</a>
+                        <a class="nav-link pb-0 pt-0 vr nav-link-color" href="portfolio.html">Porfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link pb-0 pt-0" href="#">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
@@ -40,10 +43,11 @@
         </div>
     </nav>
 
-    <section class="container">
+    <!--Main content-->
+    <section class="container bg-white">
         <div class="row">
             <div class="col">
-                <h1 class="container-title">Contact</h1>
+                <h1 class="container-title-color pt-3">Contact</h1>
                 <hr>
             </div>
         </div>
@@ -51,15 +55,15 @@
             <div class="col">
                 <form>
                     <div class="form-group">
-                        <label for="name" class="form-label">Name</label>
+                        <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Your name">
                     </div>
                     <div class="form-group">
-                        <label for="email" class="form-label">Email address</label>
+                        <label for="email">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="emailMessage" class="form-label">Message</label>
+                        <label for="emailMessage">Message</label>
                         <textarea class="form-control" id="emailMessage" rows="4"></textarea>
                     </div>
                 </form>
@@ -67,8 +71,9 @@
         </div>
     </section>
 
-    <footer class="footer fixed-bottom">
-        <div class="footer-container">
+     <!--Footer-->
+    <footer class="footer fixed-bottom text-white">
+        <div class="footer-container pt-2">
             <p>Copyright ©</p>
         </div>
     </footer>

@@ -15,43 +15,45 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-sm navbar-light p-0 navbar-personalized">
+    <!--Header-->
+    <nav class="navbar navbar-expand-sm navbar-light p-0 mb-3 navbar-custom bg-white">
         <div class="container px-0">
             <div>
-                <h1 class="header-title">Thyago Volpatto</h1>
+                <h1 class="header-title text-white">Thyago Volpatto</h1>
             </div>
+            <!--Button for the collapsed menu-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMenu"
                 aria-controls="navBarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Menu Items-->
             <div class="collapse navbar-collapse text-justify" id="navBarMenu">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
+                    <li class="nav-item active ">
                         <a class="nav-link pb-0 pt-0" href="#">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link pb-0 pt-0 vr" href="portfolio.html">Porfolio</a>
+                        <a class="nav-link pb-0 pt-0 vr nav-link-color" href="portfolio.html">Porfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pb-0 pt-0" href="contact.html">Contact</a>
+                        <a class="nav-link pb-0 pt-0 nav-link-color" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <section class="container mb-5">
-
+    
+    <!--Main content-->
+    <section class="container mb-5 bg-white">
         <div class="row">
             <div class="col">
-                <h1 class="container-title">About me</h1>
+                <h1 class="container-title-color pt-3">About me</h1>
                 <hr>
             </div>
         </div>
-        <div class="row">
+        <div class="row pl-auto">
             <div class="col-xs-12 col-lg-3 text-center">
-                <img src="assets/images/photo.jpg" class=" img-fluid img-profile" alt="" />
+                <img src="assets/images/photo.jpg" class=" img-fluid img-profile mb-2" alt="" />
             </div>
             <div class="col-xs-12 col-lg-9">
                 <P class="text-justify">I was born in the south of Brazil and I moved to Utah 2 years ago. I have a
@@ -63,7 +65,7 @@
                     about curiosities, economy, geography and history. </P>
             </div>
         </div>
-        <div class="row">
+        <div class="row pl-auto">
             <div class="col">
                 <p class="text-justify"> I graduated in IT almost ten years ago and I have done some endorsements
                     since then, but I am very
@@ -77,11 +79,11 @@
                 <br>
             </div>
         </div>
-
     </section>
 
-    <footer class="footer fixed-bottom">
-        <div class="footer-container">
+    <!--Footer-->
+    <footer class="footer fixed-bottom text-white">
+        <div class="footer-container pt-2">
             <p>Copyright ©</p>
         </div>
     </footer>
