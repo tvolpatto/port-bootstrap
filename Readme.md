@@ -8,9 +8,9 @@
 
 ## Useful Links 
 
-   [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-   [W3 - Bootstrap 4 Utilities](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
-   [Make a Readme](https://www.makeareadme.com/)
+   * [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+   * [W3 - Bootstrap 4 Utilities](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
+   * [Make a Readme](https://www.makeareadme.com/)
 
 ## Contributing
 
