@@ -1,6 +1,19 @@
 # Bootstrap Portfolio
 
    This is a portfolio example using bootstrap and css.  
+   [Click here](https://tvolpatto.github.io/port-bootstrap/) to access the deployed application.
+
+   It has an *About me* page with personal information: 
+
+  ![About me](https://github.com/tvolpatto/port-bootstrap/blob/master/assets/screenshots/screen1.PNG)
+
+   The *Portfolio* page shows the projects:
+
+  ![Portfolio](https://github.com/tvolpatto/port-bootstrap/blob/master/assets/screenshots/screen2.PNG)
+
+  *Contact* page to send messages to the author: 
+
+  ![Contact](https://github.com/tvolpatto/port-bootstrap/blob/master/assets/screenshots/screen3.PNG)
 
 ## Objectives
 
