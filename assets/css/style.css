@@ -86,3 +86,8 @@ body {
     margin-right: auto;
     text-align: center;
 }
+
+/* Contact */
+.bg-btn {
+    background-color: #4aaaa5;
+}
